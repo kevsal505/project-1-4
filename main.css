@@ -1,0 +1,68 @@
+html {
+    background-color: rgb(17, 207, 221);
+}
+
+body {
+    color: rgb(241, 241, 241) ;
+    background-color: gray;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1, h2 {
+    font-size: 2.22em;
+    font-family: Tahoma, Geneva, sans-serif;
+    color: antiquewhite;
+}
+
+
+nav {
+    font-size: 1.1em;
+
+}
+
+nav > ol{
+    line-height: 2.5em;
+    list-style-type:decimal;
+}
+
+nav.horizontalNavigation li{
+    display:block;
+    float:left; 
+}
+.active {
+    background-color:green;
+}
+
+section#leftColumn {
+    clear: left;
+    float: left;
+    padding: 1.8em;
+    width: 50%;
+}
+
+section#rightColumn {
+    float: right;
+    padding: 1.8em;
+    width: 50%;
+    vertical-align: baseline;
+}
+section {
+    background-color: royalblue;
+    width: 50%;
+    font-size: 1.1em;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+footer {
+    color: black;
+    background-color: lightgray;
+}
+
+footer {
+    float: left;
+}
+    
